@@ -73,10 +73,8 @@ npx playwright show-report
 - Shows warning if usage exceeds threshold
 
 **How to Run:**
-```bash
 python scripts/system_health.py
 
-```md
 ### 2. Log File Analyzer Script
 
 **File:** `scripts/log_analyzer.py`
@@ -89,10 +87,8 @@ python scripts/system_health.py
 **Sample Log File:** `scripts/sample.log`
 
 **How to Run:**
-```bash
 python scripts/log_analyzer.py
 
-```md
 ### Python Scripts Folder Structure
 scripts
 - system_health.py
