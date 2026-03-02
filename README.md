@@ -76,6 +76,7 @@ npx playwright show-report
 ```bash
 python scripts/system_health.py
 
+```md
 ### 2. Log File Analyzer Script
 
 **File:** `scripts/log_analyzer.py`
@@ -91,6 +92,7 @@ python scripts/system_health.py
 ```bash
 python scripts/log_analyzer.py
 
+```md
 ### Python Scripts Folder Structure
 scripts
 - system_health.py
