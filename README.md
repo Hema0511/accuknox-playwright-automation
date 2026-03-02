@@ -60,5 +60,42 @@ npx playwright test --headed
 4. View HTML report:
 npx playwright show-report
 
+## Problem Statement 2: Python Automation Scripts
+
+### 1. System Health Monitoring Script
+
+**File:** `scripts/system_health.py`
+
+**Description:**
+- Monitors CPU usage
+- Monitors memory usage
+- Monitors disk usage
+- Shows warning if usage exceeds threshold
+
+**How to Run:**
+```bash
+python scripts/system_health.py
+
+### 2. Log File Analyzer Script
+
+**File:** `scripts/log_analyzer.py`
+
+**Description:**
+- Reads log file
+- Counts ERROR, WARNING, INFO messages
+- Finds most frequent error messages
+
+**Sample Log File:** `scripts/sample.log`
+
+**How to Run:**
+```bash
+python scripts/log_analyzer.py
+
+### Python Scripts Folder Structure
+scripts
+- system_health.py
+- log_analyzer.py
+- sample.log
+
 ## Author
 Hema
